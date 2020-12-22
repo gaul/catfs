@@ -9,7 +9,6 @@ use std::os::unix::ffi::{OsStrExt, OsStringExt};
 use std::io;
 use std::mem::MaybeUninit;
 use std::path::Path;
-#[cfg(not(target_os = "macos"))]
 use std::ptr;
 use std::os::unix::io::AsRawFd;
 use std::os::unix::io::RawFd;
